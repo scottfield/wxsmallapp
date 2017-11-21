@@ -118,7 +118,7 @@ module.exports = {
   },
   initialize(type, params) {
     Q.Promise(function (resolve, reject, notify) {
-      resolve(preProcessInitData());
+      resolve(preProcessInitData({}));
     })
   }
 }
